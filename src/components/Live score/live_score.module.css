@@ -1,0 +1,14 @@
+.container {
+  height: 100vh;
+  background-color: #000;
+}
+.score_bar_container {
+  margin: auto;
+}
+.basket_image img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
