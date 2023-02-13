@@ -1,6 +1,15 @@
-function Score({ value, padding }) {
+function Score({ value, padding = 10, backgroundColor, color = "#fff" }) {
     return (
-        <div style={{ padding }}>{value}</div>
+        <div
+            style={{
+                // padding,
+                width: 60,
+                height: 60,
+                backgroundColor,
+                color,
+                textAlign: "center",
+                fontSize: 30
+            }}>{value}</div>
     )
 }
 
