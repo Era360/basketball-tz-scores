@@ -3,8 +3,38 @@
   background-color: #000;
 }
 .score_bar_container {
+  display: flex;
+  width: fit-content;
   margin: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: x-large;
+  /* border: 1px solid white; */
 }
+.home_score {
+  /* display: flex; */
+  /* flex-direction: column; */
+  color: #fff;
+  /* text-align: center; */
+}
+/* .period_time {
+  height: 100%;
+} */
+.timer {
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  color: #fff;
+  font-size: 50px;
+  padding: 30px;
+  background-color: "#6F1508";
+}
+.period {
+  padding: 10%;
+  color: #fff;
+  text-align: center;
+  background-color: yellow;
+}
+
 .basket_image img {
   position: absolute;
   bottom: 0;
